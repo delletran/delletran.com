@@ -1,0 +1,46 @@
+// Colors
+
+$base-color: #333333;
+$base-color-light: #9A8D7466;
+$base-color-lighter: #9A8D74;
+$base-color-dark: #292825;
+$base-color-darker: #000000;
+
+$base-secondary-color: #000000CC;
+$base-secondary-color-light: #00000066;
+$base-secondary-color-lighter: #EDEDED;
+$base-secondary-color-dark: #28281B;
+$base-secondary-color-darker: #000000;
+
+$primary-color: #F2C94C;
+$primary-color-lighter: #FFFFFF;
+$primary-color-light: #FFF8DC;
+$primary-color-dark: #AF935B;
+$primary-color-darker: #000000;
+
+$secondary-color: #F2C94C;
+$secondary-color-lighter: #AF935B;
+$secondary-color-light: #FFFFFF;
+$secondary-color-dark: #9A8D74;
+$secondary-color-darker: #48391B;
+
+
+$logo-color: $primary-color-light;
+$logo-color-grad-1: color-mix(in srgb, $primary-color-light 0%, $primary-color-light 40%);
+$logo-color-grad-2: color-mix(in srgb, $primary-color-light 0%, $primary-color-light 70%);
+
+$brand-name-color: $primary-color-light;
+$brand-name-color-grad-1: color-mix(in srgb, $primary-color-light 0%, $primary-color-light 40%);
+$brand-name-color-grad-2: color-mix(in srgb, $primary-color-light 0%, $primary-color-light 70%);
+
+
+// Sizes
+$nav-height: 10%;
+$footer-height: 23rem;
+$footer-height-md: 28rem;
+$footer-height-sm: 35rem;
+
+
+// z-index
+$navbar-z-index: 100;
+$navmenu-z-index: 105;
