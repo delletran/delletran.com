@@ -1,0 +1,65 @@
+// Colors
+
+$base-color: #333333;
+$base-color-light: #9A8D7466;
+$base-color-lighter: #9A8D74;
+$base-color-dark: #292825;
+$base-color-darker: #000000;
+
+$base-secondary-color: #000000CC;
+$base-secondary-color-light: #00000066;
+$base-secondary-color-lighter: #EDEDED;
+$base-secondary-color-dark: #28281B;
+$base-secondary-color-darker: #000000;
+
+$primary-color: #F2C94C;
+$primary-color-lighter: #FFFFFF;
+$primary-color-light: #FFF8DC;
+$primary-color-dark: #AF935B;
+$primary-color-darker: #000000;
+
+$secondary-color: #F2C94C;
+$secondary-color-lighter: #AF935B;
+$secondary-color-light: #FFFFFF;
+$secondary-color-dark: #9A8D74;
+$secondary-color-darker: #48391B;
+
+
+// Sizes
+
+$nav-height: 10%;
+$footer-height: 23rem;
+$footer-height-md: 28rem;
+$footer-height-sm: 35rem;
+
+
+// z-index
+$navbar-z-index: 100;
+$navmenu-z-index: 105;
+
+:export {
+  baseColor: $base-color;
+  baseColorLighter: $base-color-lighter;
+  baseColorLight: $base-color-light;
+  baseColorDark: $base-color-dark;
+  baseColorDarker: $base-color-darker;
+
+  baseSecondaryColor: $base-secondary-color;
+  baseSecondaryColorLighter: $base-secondary-color-lighter;
+  baseSecondaryColorLight: $base-secondary-color-light;
+  baseSecondaryColorDark: $base-secondary-color-dark;
+  baseSecondaryColorDarker: $base-secondary-color-darker;
+
+  primaryColor: $primary-color;
+  primaryColorLighter: $primary-color-lighter;
+  primaryColorLight: $primary-color-light;
+  primaryColorDark: $primary-color-dark;
+  primaryColorDarker: $primary-color-darker;
+
+  secondaryColor: $secondary-color;
+  secondaryColorLighter: $secondary-color-lighter;
+  secondaryColorLight: $secondary-color-light;
+  secondaryColorDark: $secondary-color-dark;
+  secondaryColorDarker: $secondary-color-darker;
+  
+}
