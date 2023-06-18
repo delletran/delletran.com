@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles.module.scss';
+import styles from '../brand.module.scss';
 import stylesVar from '@/styles/utils/variables.module.scss'
 
 

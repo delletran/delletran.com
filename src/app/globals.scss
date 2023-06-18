@@ -4,51 +4,47 @@
 @import '@/styles/utils/variables.scss'; 
 
 :root {
-  // Colors
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: $primary-color-lighter;
+  --background-start-rgb: $base-color-dark;
+  --background-end-rgb: $base-color-darker;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: $primary-color-darker;
+    --background-start-rgb: $base-color-lighter;
+    --background-end-rgb: $base-color-lighter;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: $base-color-dark; */
-}
-
-
-
-/* html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: $base-color-dark;
-  scroll-behavior: smooth;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
-} */
+} 
+
+html, body {
+  color: $primary-color-lighter;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  // background: transparent;
+  background: radial-gradient($base-color-light, $base-color);
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10vw;
+
+    @media only screen and (max-width: $px-lg) {
+      padding: 0 4.25rem;
+    }
+    @media only screen and (max-width: $px-md) {
+      flex-direction: row;
+      padding: 0;
+    }
+  }
+}

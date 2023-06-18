@@ -1,29 +1,24 @@
-$size__site_content_width: 1920px;
+@import '@/styles/utils/variables.scss';
 
-$xs: 450px;
-$sm: 640px;
-$md: 960px;
-$lg: 1280px;
-$xl: 1920px;
 
 @mixin media_query($breakpoint) {
   @if $breakpoint==lg {
-    @media only screen and (max-width: $lg) {
+    @media only screen and (max-width: $px-lg) {
       @content;
     }
   }
   @if $breakpoint==md {
-    @media only screen and (max-width: $md) {
+    @media only screen and (max-width: $px-md) {
       @content;
     }
   }
   @if $breakpoint==sm {
-    @media only screen and (max-width: $sm) {
+    @media only screen and (max-width: $px-sm) {
       @content;
     }
   }
   @if $breakpoint==xs {
-    @media only screen and (max-width: $xs) {
+    @media only screen and (max-width: $px-xs) {
       @content;
     }
   }

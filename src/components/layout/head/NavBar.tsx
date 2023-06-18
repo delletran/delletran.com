@@ -1,9 +1,9 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { AppBar, Stack } from '@mui/material';
+import { AppBar, Box, Button, Container, CssBaseline, IconButton, Stack, Toolbar, Typography } from '@mui/material';
 import Link from 'next/link';
-import styles from './styles.module.scss'
+import styles from './head.module.scss'
 // import MenuIcon from '@mui/icons-material/Menu'
 import Brand from '@/components/brand';
 import NavLInks from './components/NavLinks';
@@ -20,7 +20,7 @@ const NavBar = (props: Props) => {
       setScrollY(window.scrollY)
       setShowNav(window.scrollY < scrollY 
         ? true
-        : window.scrollY > 100 ? false : true); 
+        : window.scrollY > 80 ? false : true); 
     };
     window.addEventListener('scroll', handleScroll);
 
@@ -29,7 +29,6 @@ const NavBar = (props: Props) => {
     };
   }, [scrollY]);
   return (
-    
     <AppBar
       position='static'
       className={`
@@ -43,11 +42,11 @@ const NavBar = (props: Props) => {
           ${styles['navbar-wrapper']}
           ${styles['navbar-toolbar']}`
         }
-      >
+        >
         <Link href={'/'}>
           <Brand 
-            logoSize={108}
-            BrandNameSize={270}
+            logoSize={72}
+            BrandNameSize={200}
             spacing={3}
             direction='row'
             animation_type='onload'

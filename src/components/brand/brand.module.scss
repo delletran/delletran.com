@@ -1,3 +1,5 @@
+@import '@/styles/utils/variables.scss';
+
 #brand-container {
   display: flex;
   justify-content: center;  
@@ -6,7 +8,7 @@
   
   .brand-wrapper {
     padding: 0.3125rem;
-    background-color: black;
+    background-color: transparent;
 
     
     #logo-container {

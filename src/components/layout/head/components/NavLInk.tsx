@@ -2,7 +2,7 @@ import { publicUrl } from '@/services/api'
 import { Tooltip } from '@mui/material'
 import Link from 'next/link'
 import React from 'react'
-import styles from '../styles.module.scss'
+import styles from '../head.module.scss'
 import { usePathname } from 'next/navigation';
 
 type Props = {
@@ -11,28 +11,24 @@ type Props = {
   link: string
   sublabel?: string
   icon: JSX.Element
+  isMobile?: boolean
 }
 
 const NavLInk = (props: Props) => {
-  const { id, label, link, sublabel, icon } = props
+  const { id, label, link, sublabel, icon, isMobile=false } = props
   const pathname = usePathname()
 
-  const isHoverPath = (pathName:string) => 
-    pathName.split('/')[1] == (link).slice(1)
-    
   return (
-    <Tooltip key={id} title={`${label} page`}>
       <Link
+        key={id}
         href={`${publicUrl}${link}`}
         className={`
-          ${styles[`nav-link`]}
-          // ${pathname == link && styles[`nav-link_active`]}
-          ${isHoverPath(pathname) && styles[`nav-link_active`]}
+          ${styles[`nav-link${isMobile ? '-mobile' : ''}`]}
+          ${(pathname == link) && styles[`nav-link${isMobile ? '-mobile' : ''}_active`]}
         `}
       >
         {label}
       </Link>
-    </Tooltip>
   )
 }
 

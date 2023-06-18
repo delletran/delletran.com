@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import styles from './styles.module.scss';
+import styles from './brand.module.scss';
 import BrandName from './brand-name'
 import Logo from './logo'
 import { Stack } from '@mui/material';
