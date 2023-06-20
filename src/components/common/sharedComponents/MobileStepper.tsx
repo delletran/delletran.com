@@ -7,7 +7,7 @@ import { KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material'
 type Props = {
   count: number
   activeStep: number
-  setActiveStep: Dispatch<SetStateAction<number>>
+  setActiveStep: any
 }
 function MobileStepper({count, activeStep, setActiveStep}: Props) {
   const theme = useTheme();
