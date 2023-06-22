@@ -38,8 +38,12 @@ next-env.d.ts
 # code editor
 .vscode/
 
-# test pages
+# test pages and temp files
 src/app/test_page/
+temp/
+temp
+.temp/
+.temp
 
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
