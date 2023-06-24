@@ -1,25 +1,22 @@
 {
-  "amplify": {
+  "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-delletran-amplify-144141-authRole",
-      "UnauthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletran-amplify-144141-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletran-amplify-144141-authRole",
+      "AuthRoleName": "amplify-delletrancom-dev-231026-authRole",
+      "UnauthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-dev-231026-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-dev-231026-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-delletran-amplify-144141-deployment",
-      "UnauthRoleName": "amplify-delletran-amplify-144141-unauthRole",
-      "StackName": "amplify-delletran-amplify-144141",
-      "StackId": "arn:aws:cloudformation:us-east-1:305206602785:stack/amplify-delletran-amplify-144141/303ffac0-125a-11ee-94f5-1221c28fea2b",
-      "AmplifyAppId": "d2czcnxojvy2pc"
+      "DeploymentBucketName": "amplify-delletrancom-dev-231026-deployment",
+      "UnauthRoleName": "amplify-delletrancom-dev-231026-unauthRole",
+      "StackName": "amplify-delletrancom-dev-231026",
+      "StackId": "arn:aws:cloudformation:us-east-1:305206602785:stack/amplify-delletrancom-dev-231026/4308d130-12a1-11ee-8a9f-0a2bb2a1c0ef",
+      "AmplifyAppId": "duy54utsz5mol"
     },
     "categories": {
       "hosting": {
         "amplifyhosting": {
-          "appId": "d2czcnxojvy2pc",
+          "appId": "duy54utsz5mol",
           "type": "manual"
         }
-      },
-      "api": {
-        "delletran": {}
       }
     }
   }
