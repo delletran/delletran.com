@@ -21,7 +21,7 @@ const NavLInk = (props: Props) => {
   return (
       <Link
         key={id}
-        href={`${publicUrl}${link}`}
+        href={`/${link}`}
         className={`
           ${styles[`nav-link${isMobile ? '-mobile' : ''}`]}
           ${(pathname == link) && styles[`nav-link${isMobile ? '-mobile' : ''}_active`]}
