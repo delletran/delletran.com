@@ -1,20 +1,44 @@
 {
-  "dev": {
+  "stg": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-delletrancom-dev-231026-authRole",
-      "UnauthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-dev-231026-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-dev-231026-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-delletrancom-dev-231026-deployment",
-      "UnauthRoleName": "amplify-delletrancom-dev-231026-unauthRole",
-      "StackName": "amplify-delletrancom-dev-231026",
-      "StackId": "arn:aws:cloudformation:us-east-1:305206602785:stack/amplify-delletrancom-dev-231026/4308d130-12a1-11ee-8a9f-0a2bb2a1c0ef",
-      "AmplifyAppId": "duy54utsz5mol"
+      "AuthRoleName": "amplify-delletrancom-stg-141923-authRole",
+      "UnauthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-stg-141923-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-stg-141923-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-delletrancom-stg-141923-deployment",
+      "UnauthRoleName": "amplify-delletrancom-stg-141923-unauthRole",
+      "StackName": "amplify-delletrancom-stg-141923",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:305206602785:stack/amplify-delletrancom-stg-141923/3a8fd510-1320-11ee-a4a5-06760ca854ea",
+      "AmplifyAppId": "d39vvqv2eisteh"
     },
     "categories": {
       "hosting": {
         "amplifyhosting": {
-          "appId": "duy54utsz5mol",
+          "appId": "d39vvqv2eisteh",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "delletrancom": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-delletrancom-dev-142148-authRole",
+      "UnauthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-dev-142148-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::305206602785:role/amplify-delletrancom-dev-142148-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-delletrancom-dev-142148-deployment",
+      "UnauthRoleName": "amplify-delletrancom-dev-142148-unauthRole",
+      "StackName": "amplify-delletrancom-dev-142148",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:305206602785:stack/amplify-delletrancom-dev-142148/90d03730-1320-11ee-a604-062fa483a518",
+      "AmplifyAppId": "d39vvqv2eisteh"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d39vvqv2eisteh",
           "type": "manual"
         }
       },

@@ -11,7 +11,7 @@ projects:
         generatedFileName: src/API.ts
         docsFilePath: src/graphql
   delletrancom:
-    schemaPath: src/graphql/schema.json
+    schemaPath: amplify/backend/api/delletrancom/build/schema.graphql
     includes:
       - src/graphql/**/*.ts
     excludes:

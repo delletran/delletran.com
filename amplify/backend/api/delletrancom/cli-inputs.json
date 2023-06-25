@@ -5,7 +5,11 @@
     "serviceName": "AppSync",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2024-06-24T06:25:06.386Z",
+      "keyDescription": "delletran_api_key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
   }
 }
