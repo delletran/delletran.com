@@ -17,6 +17,9 @@
           "appId": "duy54utsz5mol",
           "type": "manual"
         }
+      },
+      "api": {
+        "delletrancom": {}
       }
     }
   }
