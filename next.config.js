@@ -2,6 +2,7 @@
 const path = require('path');
  
 const nextConfig = {
+  output: 'export',
   publicRuntimeConfig: {
     API_URL:process.env.API_URL,
     FE_URL:process.env.FE_URL
