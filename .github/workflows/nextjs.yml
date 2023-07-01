@@ -9,6 +9,7 @@ on:
   push:
     branches:
     - DLWA-*
+    - staging
 
   pull_request:
     branches:
