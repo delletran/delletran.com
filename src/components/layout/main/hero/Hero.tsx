@@ -52,7 +52,7 @@ function Hero({}: Props) {
       <span className={styles.image_wrapper} >
         <div className={styles.image}>
           <Image
-            src={`/images/profile_a.png`}
+            src={`${publicUrl}/images/profile_a.png`}
             alt="logo"
             width={900}
             height={900}
