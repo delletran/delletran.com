@@ -2,7 +2,7 @@
 const path = require('path');
  
 const nextConfig = {
-  output: 'export',
+  // output: 'export',
   publicRuntimeConfig: {
     API_URL:process.env.API_URL,
     FE_URL:process.env.FE_URL
@@ -13,12 +13,12 @@ const nextConfig = {
   images: {
     domains: ['127.0.0.1', 'localhost', 'delletran.github.io/delletran.com', 'delletran.com'],
     remotePatterns: [
-      {
-        protocol: process.env.PROTOCOL,
-        hostname: process.env.HOSTNAME,
-        port: process.env.PORT,
-        pathname: '/images/**',
-      },
+      // {
+      //   protocol: process.env.PROTOCOL,
+      //   hostname: process.env.HOSTNAME,
+      //   port: process.env.PORT,
+      //   pathname: '/images/**',
+      // },
       {
         protocol: "http",
         hostname: "localhost",
