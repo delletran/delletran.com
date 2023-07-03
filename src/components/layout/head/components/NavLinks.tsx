@@ -130,7 +130,7 @@ const NavLInks = (props: Props) => {
   const renderMobileView = () => (
     <Stack
       direction={'column'}
-      sx={{ display: { sm: 'flex', lg: 'none' } }}>
+      sx={{ display: { xs: 'flex', lg: 'none' } }}>
       <IconButton
         size="large"
         aria-label="account of current user"
@@ -148,7 +148,7 @@ const NavLInks = (props: Props) => {
   const renderDesktopView = () => (
     <Stack
       direction={'row'}
-      sx={{ display: { sm: 'none', lg: 'flex' } }}>
+      sx={{ display: { xs: 'none', lg: 'flex' } }}>
       {renderDesktopLinks()}
     </Stack>
   )
