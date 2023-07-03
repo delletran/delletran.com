@@ -4,6 +4,7 @@ import Hero from '@/components/layout/main/hero/Hero'
 import { Hex } from '@/components/bg'
 
 export default function Home() {
+  console.log(process.env.NODE_ENV)
   return (
     <>
       {/* <NavBar /> */}
