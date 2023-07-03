@@ -1,7 +1,7 @@
 const nodeEnv = process.env.NODE_ENV
 
 let API_URL='http://127.0.0.1:8090'
-let FE_URL='delletran.com'
+let FE_URL='https://delletran.com'
 
 if (nodeEnv == "development") {
   API_URL='http://127.0.0.1:8090'
@@ -10,7 +10,7 @@ if (nodeEnv == "development") {
   
 if (nodeEnv == "production") {
   API_URL='http://127.0.0.1:8090'
-  FE_URL='delletran.github.io/delletran.com'
+  FE_URL='https://delletran.github.io/delletran.com'
 }
 
 
