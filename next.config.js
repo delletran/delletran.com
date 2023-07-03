@@ -2,7 +2,7 @@
 const path = require('path');
  
 const nextConfig = {
-  // output: 'export',
+  output: 'export',
   // serverRuntimeConfig: {},
   
   publicRuntimeConfig: {
