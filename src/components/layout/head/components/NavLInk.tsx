@@ -1,4 +1,4 @@
-import { publicUrl } from '@/services/api'
+import { publicURL  } from '@/services/api'
 import { Tooltip } from '@mui/material'
 import Link from 'next/link'
 import React from 'react'
@@ -21,7 +21,7 @@ const NavLInk = (props: Props) => {
   return (
       <Link
         key={id}
-        href={`/${link}`}
+        href={`${publicURL}/${link}`}
         className={`
           ${styles[`nav-link${isMobile ? '-mobile' : ''}`]}
           ${(pathname == link) && styles[`nav-link${isMobile ? '-mobile' : ''}_active`]}

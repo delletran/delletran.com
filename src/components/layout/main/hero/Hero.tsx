@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import { publicUrl } from '@/services/api'
+import { publicURL } from '@/services/api'
 import styles from '../main.module.scss'
 import Button from '@/components/buttons/Button'
 import Link from 'next/link';
@@ -52,7 +52,7 @@ function Hero({}: Props) {
       <span className={styles.image_wrapper} >
         <div className={styles.image}>
           <Image
-            src={`${publicUrl}/images/profile_a.png`}
+            src={`${publicURL}/images/profile_a.png`}
             alt="logo"
             width={900}
             height={900}
